@@ -2,7 +2,7 @@
 
 run `yarn` to download dependencies
 
-run `yarn start` will spin up an express GraphQL server, running Apollo Engine
+run `yarn start` to spin up an express GraphQL server with an accompanying GraphiQL interface, running Apollo Engine
 
 You need an `ENGINE_API_KEY` in your ENV, see https://engine.apollographql.com/
 
