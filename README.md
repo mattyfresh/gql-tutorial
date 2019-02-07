@@ -1,37 +1,11 @@
-# apollo-tutorial-kit
+# gql-server-tutorial
 
-Starting point for the Apollo GraphQL Server tutorial.
+run `yarn` to download dependencies
 
-Follow along with the tutorial in the blog post: [How to build a GraphQL server](https://medium.com/apollo-stack/tutorial-building-a-graphql-server-cddaa023c035#.wy5h1htxs). If you want to skip ahead to the solution, check out the [server-tutorial-solution](https://github.com/apollographql/apollo-tutorial-kit/tree/server-tutorial-solution) branch of this repo.
+run `yarn start` will spin up an express GraphQL server, running Apollo Engine
 
-Up-to-date documentation and explanations can be found in the [Apollo Server docs](https://www.apollographql.com/docs/apollo-server/)
+You need an `ENGINE_API_KEY` in your ENV, see https://engine.apollographql.com/
 
-## Getting started
+Built following this tutorial: https://blog.apollographql.com/tutorial-building-a-graphql-server-cddaa023c035
 
-```bash
-git clone https://github.com/apollostack/apollo-starter-kit
-cd apollo-starter-kit
-npm install
-npm start
-```
-
-Then open [http://localhost:3000/graphiql](http://localhost:3000/graphiql)
-
-When you paste this on the left side of the page:
-
-```graphql
-{
-  testString
-}
-```
-
-and hit the play button (cmd-return), then you should get this on the right side:
-
-```json
-{
-  "data": {
-    "testString": "It works!"
-  }
-}
-```
-# gql-tutorial
+TODO: Caching
