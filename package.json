@@ -1,6 +1,6 @@
 {
   "name": "kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starting point for the Apollo GraphQL Server tutorial.",
   "main": "server.js",
   "dependencies": {
@@ -11,7 +11,7 @@
     "graphql": "^0.11.7",
     "graphql-tools": "^2.13.0",
     "lodash": "^4.17.11",
-    "mongoose": "^4.13.2",
+    "mongoose": "^5.0.0",
     "node-fetch": "^2.3.0",
     "sequelize": "^4.42.0",
     "sqlite": "^3.0.1"
